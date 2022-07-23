@@ -15,7 +15,7 @@ Installs the project dependencies, including Redux packages such as "@reduxjs/to
 Runs the React app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Runs an Express API that exposes a single endpoint, GET `/api/quote`, which returns a motivational quote at random.
+Runs an Express API at `http://localhost:3004` that exposes a single endpoint, GET `/api/quote`, which returns a motivational quote at random.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.

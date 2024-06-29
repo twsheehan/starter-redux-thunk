@@ -1,9 +1,9 @@
-import { useSelector, useDispatch } from 'react-redux';
+import { useSelector, useDispatch } from "react-redux";
 import {
   removeNote,
   // selectAllNotes,
   selectFilteredNotes,
-} from '../notes.slice';
+} from "../notes.slice";
 
 export default function NotesList() {
   const notes = useSelector(selectFilteredNotes);
